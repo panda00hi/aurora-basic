@@ -8,6 +8,7 @@
 
 - 项目的resources目录下新建version.txt文本文件
 - pom.xml引入version-starter依赖
+- 验证请求curl ip:port/dev/v1/version
 
 version.txt示例
 
