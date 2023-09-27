@@ -45,6 +45,12 @@
             <artifactId>version-stater</artifactId>
             <version>${aurora.basic.version}</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.alibaba.fastjson2</groupId>
+            <artifactId>fastjson2</artifactId>
+            <version>2.0.40</version>
+        </dependency>
     </dependencies>
 
     <build>

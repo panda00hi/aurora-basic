@@ -21,7 +21,7 @@
         <spring.boot.version>2.7.13</spring.boot.version>
         <spring.version>5.3.28</spring.version>
         <lombok.version>1.18.24</lombok.version>
-        <fastjson.version>2.0.38</fastjson.version>
+        <fastjson2.version>2.0.40</fastjson2.version>
         <commons_io>2.11.0</commons_io>
         <commons_collections_version>4.4</commons_collections_version>
 
@@ -33,6 +33,7 @@
         <module>aurora-version</module>
         <!--分布式锁-->
         <module>dtb-lock</module>
+        <module>aurora-config</module>
     </modules>
 
     <dependencyManagement>
@@ -61,7 +62,7 @@
             <dependency>
                 <groupId>com.alibaba.fastjson2</groupId>
                 <artifactId>fastjson2</artifactId>
-                <version>${fastjson.version}</version>
+                <version>${fastjson2.version}</version>
             </dependency>
 
             <dependency>
